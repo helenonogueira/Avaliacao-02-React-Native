@@ -1,4 +1,4 @@
-# 📱 Avaliação 01 - Programação para Dispositivos Móveis
+# 📱 Avaliação 02 - Programação para Dispositivos Móveis
 
 Projeto desenvolvido para a disciplina de Programação para Dispositivos Móveis, dividido em três partes que exploram conceitos fundamentais do React Native, desde elementos básicos até a criação de telas complexas com navegação e autenticação.
 
