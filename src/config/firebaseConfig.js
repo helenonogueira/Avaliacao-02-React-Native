@@ -2,12 +2,12 @@ import { initializeApp, getApps, getApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDIusaaUf9njDG8QskDEVQ9o4WzVuP_KWc",
-  authDomain: "react-native-uniesp-d4ded.firebaseapp.com",
-  projectId: "react-native-uniesp-d4ded",
-  storageBucket: "react-native-uniesp-d4ded.firebasestorage.app",
-  messagingSenderId: "172262265768",
-  appId: "1:172262265768:web:e579a4b3606e9247e0839d"
+  apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.EXPO_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.EXPO_PUBLIC_FIREBASE_APP_ID,
 };
 
 const missingConfigKeys = Object.entries(firebaseConfig)
